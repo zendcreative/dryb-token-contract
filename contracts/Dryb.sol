@@ -84,8 +84,8 @@ contract Dryb {
     ===== EVENTS =======
     ====================
   */
-  event FareChanged(address, string, uint256, uint256, uint256);
-  event DriverAdded(address, string, address, string, string, uint256);
+  event FareChanged(address admin, string message, uint256 from, uint256 to, uint256 date);
+  event DriverAdded(address admin, string message, address driver, string firstname, string lastname, uint256 date);
 
 
   /*
